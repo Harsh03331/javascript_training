@@ -1,0 +1,20 @@
+doctype html 
+html 
+    head 
+        title Employees
+    body 
+        table(border ="1" cellpadding = "10")
+            thead 
+                th Name 
+                th Email 
+                th Phone 
+                th City 
+                th Company 
+
+            each val in allemployees
+                tr 
+                    td #{val.name1}
+                    td #{val.mail}
+                    td #{val.phone1}
+                    td #{val.city1}
+                    td #{val.comp}

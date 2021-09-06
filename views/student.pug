@@ -1,0 +1,23 @@
+doctype html 
+html 
+    head 
+        title Students 
+    body 
+        table(border ="1" cellpadding = "10")
+            thead 
+                th Name 
+                th Email 
+                th Phone 
+                th City 
+
+            each val in allstudents
+                tr 
+                    td #{val.name}
+                    td #{val.email}
+                    td #{val.phone}
+                    td #{val.city}
+                    
+
+
+
+                
